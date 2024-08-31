@@ -1,4 +1,8 @@
 # Product_Search
+Public API 
+from - https://fakestoreapi.com/docs
+API Link - https://fakestoreapi.com/products
+
 1. HOME-
 
  ![image](https://github.com/user-attachments/assets/148e7592-3a45-4952-8644-1fbcad95207b)
@@ -26,9 +30,7 @@ another in women's clothing category-
 Search Result
 ![image](https://github.com/user-attachments/assets/bb172383-8130-4ccd-ba58-47269c9dc301)
 
-Public API 
-from - https://fakestoreapi.com/docs
-API Link - https://fakestoreapi.com/products
+
 
 
 
