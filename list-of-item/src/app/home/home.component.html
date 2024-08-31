@@ -1,0 +1,38 @@
+<nav class="nav">
+    <div class="nav-search">
+        <h1>Product List</h1>
+    <input #searchInput (ngModule)="filterTerm" type="text" placeholder="Search Products" (input)="filterItems()" />
+    <button class="button" (click)="submitSearch(searchInput.value)"> Search</button>
+</div>
+<div>
+    <ul class="home">
+        <li><a routerLink="/"> Home </a></li>
+        <li><a href="#"> Login/Sign-up </a></li>
+        <li><a href="#"> Cart (0)</a></li>
+    </ul>
+</div>
+</nav>
+
+<div class="product-list-wrapper">
+    <h1> Products </h1>
+    <div class="row">
+        <div class="col-sm-3" *ngFor="let item of trendyProduct">
+            <div class="product-item">
+                <a routerLink="/details/{{item.id}}"> <img src="{{item.image}}" alt=""> </a>
+
+                <div class="product-details">
+
+                    <h6 class="name-head">{{item.title}}</h6>
+                    <div class="product-price">
+                        <h6>Price - {{item.price}}</h6>
+                    </div>
+                    <div class="product-category">
+                        <h6>Category - {{item.category}}</h6>
+                    </div>
+                </div>
+                <div class="product-footer">
+                    <a routerLink="/details/{{item.id}}">View Details</a>
+                </div>
+            </div>
+        </div>
+       

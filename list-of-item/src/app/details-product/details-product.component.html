@@ -1,0 +1,17 @@
+<div class="row product-details" *ngIf="productdetails">
+    <div class="col-sm-6">
+        <img class="product-image" src="{{productdetails.image}}" alt="">
+
+    </div>
+    <div class="col-sm-6">
+        <div class="details">
+            <h1>{{productdetails.title}}</h1>
+            <h3>Price : {{productdetails.price}}</h3>            
+            <h6>Category : {{productdetails.category}}</h6>
+            <h6>Description : {{productdetails.description}}</h6>
+            <button>Buy Now</button>    
+            <button>Add to Cart</button>       
+
+        </div>
+    </div>
+</div>
