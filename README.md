@@ -9,11 +9,12 @@
 
 3. Search Product
    There are some category for Search Product
-    .	 men's clothing
-    .	women's clothing
-    .	electronics
-    .	jewelery
+    I.	 men's clothing, 
+    II.	women's clothing, 
+    III.	electronics, 
+    Iv.	jewelery, 
 In one Example for category - electronics-
+
 ![image](https://github.com/user-attachments/assets/0b8e220a-ddf6-4ac1-8176-9bffd64229cb)
 
 Search Result
@@ -24,6 +25,11 @@ another in women's clothing category-
 
 Search Result
 ![image](https://github.com/user-attachments/assets/bb172383-8130-4ccd-ba58-47269c9dc301)
+
+Public API 
+from - https://fakestoreapi.com/docs
+API Link - https://fakestoreapi.com/products
+
 
 
 
